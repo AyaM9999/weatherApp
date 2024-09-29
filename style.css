@@ -1,0 +1,66 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: indianred;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    width: 60%;
+    height: 50%;
+    margin: 200px 200px;
+    padding: 100px 100px;
+    font-size: xxx-large;
+    background: pink;
+    border: solid 30px indianred;
+    
+}
+
+span.digit {
+    font-size: 100px;
+    color: red;
+    font-weight: 600;
+}
+
+span.txt {
+    font-size: 30px;
+}
+
+
+#buttons{
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 200px;
+    margin: 0px 20px;
+    font-size: xxx-large;
+    height: auto;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+button#start {
+    background: yellow;
+    border: solid 10px yellow;
+}
+
+button#stop {
+    background: green;
+    border: solid 10px green;
+}
+
+button#reset {
+    background:rebeccapurple;
+    border: solid 10px rebeccapurple;
+}
+
+@media screen and (max-width :1300) {
+    .container{
+        font-size: small;
+    }
+}
